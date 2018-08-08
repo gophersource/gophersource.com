@@ -1,0 +1,4 @@
+baseURL = "https://gophersource.com"
+languageCode = "en-us"
+title = "GopherSource: An Open Source Adventure for Gophers"
+theme = "kube"
