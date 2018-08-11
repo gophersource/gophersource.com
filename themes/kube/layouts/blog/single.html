@@ -6,8 +6,8 @@
     {{ template "_internal/schema.html" . }}
 <div id="hero">
     <h1 itemprop="headline">  {{.Title}}</h1>
-    {{ if .Description }}
-<blockquote itemprop="description">{{ .Description }}</blockquote>
+    {{ if .Site.Params.description }}
+<blockquote itemprop="description">{{ .Site.Params.description }}</blockquote>
 {{ end }}
 <time class="post-time">{{ partial "post/meta" . }}</time>
 </div>

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
-  {{ with .Description }}
+  {{ with .Site.Params.description }}
   <meta name="description" content="{{ . }}"> {{ end }}
   <!-- noindex meta -->
   {{ $default_noindex_kinds := slice "section" "taxonomy" "taxonomyTerm" }}
