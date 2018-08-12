@@ -230,12 +230,12 @@ h1, h2, h3, h4, h5, h6 {
       color: #000; }
     #hero p a:hover {
       color: rgba(0, 0, 0, 0.6); }
-    #hero h1:after {
+    #hero p:before {
       position: absolute;
       content: '';
       width: 40px;
       height: 3px;
-      top: 3em;
+      top: -5px;
       left: 50%;
       margin-left: -20px;
       background: #CA9ECA; }
