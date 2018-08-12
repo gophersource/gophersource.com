@@ -3,7 +3,7 @@
         <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
     </h2>
     <hr>
-    {{ if .Site.Params.description }}
-    <p itemprop="about">{{ .Site.Params.description }}</p>
+    {{ if .Description }}
+    <p itemprop="about">{{ .Description }}</p>
     {{ end }}
 </li>

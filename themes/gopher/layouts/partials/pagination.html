@@ -1,15 +1,18 @@
 <nav class="pagination pager align-center">
             <hr>
     <ul>
-           {{if .Paginator.HasPrev }}
+           {{ if .Paginator.HasPrev }}
         <li class="prev"><a href="{{ .Paginator.Prev.URL }}">Previous</a></li>
         {{ end }}
         <li>
 
+        {{ if gt .Paginator.TotalPages 1 }}
+        carolyn
         <a href="" class="button round small outline">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</a>
         </li>
             {{ if .Paginator.HasNext }}</a>
         <li class="next"><a href="{{ .Paginator.Next.URL }}">Next</a></li>
            {{ end }}
+        {{ end }}
     </ul>
 </nav>

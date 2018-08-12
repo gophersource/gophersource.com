@@ -5,13 +5,14 @@
 
 <div id="hero" class="wrap">
   <h1>{{.Title }}</h1>
-  <p>{{.Params.Site.Params.description}}</p>
+  <p>{{.Description}}</p>
 </div>
 <div id="post-box">
-<div id="post" itemprop="articleBody">
+  <div id="post" itemprop="articleBody">
 
-    {{.Content | safeHTML}}
+      {{.Content | safeHTML}}
 
+  </div>
 </div>
 {{ end }}
 {{ define "footer" }}
