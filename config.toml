@@ -1,7 +1,7 @@
 baseURL = "https://gophersource.com"
 languageCode = "en-us"
 title = "GopherSource"
-theme = "kube"
+theme = "gopher"
 
 [params]
   description = "An open-source adventure for gophers"

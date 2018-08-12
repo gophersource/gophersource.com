@@ -1,0 +1,58 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "main"}}
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <h2>{{.Site.Params.description}}</h2>
+  </div>
+  <div id="kube-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <img alt="gophers at work" src="{{ "/img/build.png" | relURL }}" width="256" height="256">
+        </figure>
+        <h3>Gophers, United</h3>
+        <p>Bringing the Go community to the table with the Go team.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="gopher with balloons" src="{{ "/img/gopher-balloons.png" | relURL }}" width="256" height="256">
+        </figure>
+        <h3>Open Source</h3>
+        <p>Contributing to upstream Go and open source Go projects.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="gophers hugging" src="{{ "/img/hugs.png" | relURL }}" width="256" height="256">
+        </figure>
+        <h3>Community</h3>
+        <p>Maintaining and growing the amazing Go community that we have come to love.</p>
+      </div>
+    </div>
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <img alt="multi-colored gophers" src="{{ "/img/inclusion.png" | relURL }}" width="256" height="256">
+        </figure>
+        <h3>Inclusion</h3>
+        <p>Ensuring everyone is on equal footing, regardless of background or experience.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="gophers learning together" src="{{ "/img/share.png" | relURL }}" width="256" height="256">
+        </figure>
+        <h3>Mentorship</h3>
+        <p>Creating safe spaces for community memebers to meet, interact and support eachother.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="gopher dropping the microphone" src="{{ "/img/mic-drop.png" | relURL }}" width="256" height="256">
+        </figure>
+        <h3>Impact</h3>
+        <p>Shaping the future of the Go programming language, ecosystem and community.</p>
+    </div>
+  </div>
+</div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
