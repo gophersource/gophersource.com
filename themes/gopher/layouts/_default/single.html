@@ -7,12 +7,13 @@
   <h1>{{.Title }}</h1>
     <p>{{.Params.Site.Params.description}}</p>
 </div>
-<ul id="posts">
+<div id="post-box">
+<div id="post" itemprop="articleBody">
 
- {{ .Content }}
-  
-</ul>
-{{ end }} 
-{{ define "footer" }} 
-  {{ partial "footer" . }} 
+    {{.Content | safeHTML}}
+
+</div>
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
 {{ end }}
