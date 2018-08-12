@@ -1,6 +1,6 @@
 ---
 title: Community
-description: Open Source Software is more than just code or a license, it's the community!
+description: Open Source is more than just code or a license, it's a community!
 menu: main
 ---
 
