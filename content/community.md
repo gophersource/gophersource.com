@@ -17,7 +17,8 @@ Everyone is encouraged to create an account, quietly lurk or chat us up!
 
 * [Gophers Slack](https://gophers.slack.com) ([request invitation](https://invite.slack.golangbridge.org))
 * [Women Who Go Slack](https://womenwhogo.slack.com) ([request invitation](https://www.womenwhogo.org/invite.html))
-* [Go Forum](https://forum.golangbridge.org)
+* [Go Forum](https://forum.golangbridge.org), I have been tagging posts with [[gophersource]](https://forum.golangbridge.org/search?q=gophersource),
+so that it's easier for us to find each other on the forum.
 
 <center>
 <div class="row gutters">
