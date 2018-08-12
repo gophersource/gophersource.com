@@ -8,11 +8,17 @@ Before you can contribute to Go projects, you will need a working developer
 environment.
 
 1. **Install Go**<br/>
-    Follow the instructions for your operating system to install Go:
 
-    * [Mac](https://golang.org/doc/install#osx)
-    * [Windows](https://golang.org/doc/install#windows)
-    * [Ubuntu](https://github.com/golang/go/wiki/Ubuntu)
+    **MacOS**<br/>
+    Download the [latest installer](https://golang.org/dl/) for macOS and run it.
+
+    **Windows**<br/>
+    Download the [latest installer](https://golang.org/dl/) for Windows and run it.
+
+    **Ubuntu**<br/>
+    ```
+    sudo apt-get install golang-go
+    ```
 
 1. **Understand your GOPATH**<br/>
     The GOPATH is the location where Go looks for source code, caches packages, etc.
@@ -26,6 +32,9 @@ environment.
 
     By default your GOPATH is in your home directory, ~/go.
     You can change it by setting the GOPATH environment variable.
+
+    Go requires that a project's source code is located in **GOPATH/src/PACKAGE_NAME**,
+    for example GOPATH/src/github.com/carolynvs/magic or GOPATH/src/golang.org/x/golint.
 
 1. **Add GOPATH/bin to your PATH**<br/>
     When you install a Go application, it is placed under GOPATH/bin. You should
@@ -45,14 +54,24 @@ environment.
     [System.Environment]::SetEnvironmentVariable('PATH', $env:Path + ";$(go env GOPATH)\bin", [System.EnvironmentVariableTarget]::User)
     ```
 
+    After you have update your PATH environment variable, open a new shell window or tab
+    so that it is loaded and ready for you to use.
+
 1. **Verify your setup**<br/>
     Let's verify that Go is setup properly by installing a running a go application.
 
     ```
     $ go get -u github.com/carolynvs/magic
+    # the source is downloaded to GOPATH/src/github.com/carolynvs/magic
     $ magic
   🎵  Oh oh it's magic! 🎵
     ```
+
+    The `go get -u` command clones the package's source code under the GOPATH in
+    it's proper place, or updates it if it already exists, builds the package
+    and then installs it. Because we put GOPATH/bin on our PATH, the binary built
+    by Go, `magic`, is available for us to use immediately.
+
 
 <center>
   <img alt="gophers at work" src="/img/build.png" width="256"/>
