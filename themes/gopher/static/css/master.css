@@ -208,8 +208,7 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: underline; }
 
 #hero {
-  padding-top: 48px;
-  padding-bottom: 56px;
+  margin-bottom: 4em;
   text-align: center; }
   #hero h1 {
     max-width: 880px;
@@ -225,23 +224,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 21px;
     line-height: 32px;
     color: rgba(0, 0, 0, 0.5);
-    margin-top: 28px;
-    padding-top: 28px;
     margin-bottom: 0;
     position: relative; }
     #hero p a {
       color: #000; }
     #hero p a:hover {
       color: rgba(0, 0, 0, 0.6); }
-    #hero p:before {
+    #hero h1:after {
       position: absolute;
       content: '';
       width: 40px;
       height: 3px;
-      top: 0;
+      top: 3em;
       left: 50%;
       margin-left: -20px;
-      background: #ff3366; }
+      background: #CA9ECA; }
 
 #intro {
   margin-top: 56px;

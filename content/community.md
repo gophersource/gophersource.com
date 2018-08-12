@@ -1,7 +1,7 @@
 ---
 title: Community
+description: Open Source Software is more than just code or a license, it's the community!
 menu: main
-layout: single
 ---
 
 ## Code of Conduct
