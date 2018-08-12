@@ -1,5 +1,6 @@
 ---
-title: "Go Development Setup"
+title: Setup
+menu: main
 ---
 
 * Install Go

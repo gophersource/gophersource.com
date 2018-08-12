@@ -16,6 +16,8 @@ Everyone is encouraged to create an account, quietly lurk or chat us up!
 * [Go Forum](https://forum.golangbridge.org)
 
 ## Groups
+* [Go Study Group](/study-group/) is weekly remote group of folks who get together
+regularly to talk about Go-related topics.
 * [Women Who Go](https://www.womenwhogo.org) supports women and gender minorities
 with local meetups worldwide.
 * [GoBridge](https://golangbridge.org) builds bridges to educate underrepresented
