@@ -4,16 +4,13 @@ description: Get ready to write Go!
 menu: main
 ---
 
-Before you can contribute to Go projects, you will need a working developer
-environment.
-
 1. **Install Go**<br/>
 
     **MacOS**<br/>
-    Download the [latest installer](https://golang.org/dl/) for macOS and run it.
+    Download the [Go 1.11 installer](https://golang.org/dl/#unstable) for macOS and run it.
 
     **Windows**<br/>
-    Download the [latest installer](https://golang.org/dl/) for Windows and run it.
+    Download the [Go 1.11 installer](https://golang.org/dl/#unstable) for Windows and run it.
 
     **Ubuntu**<br/>
     ```
