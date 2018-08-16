@@ -13,8 +13,11 @@ menu: main
     Download the [Go 1.11 installer](https://golang.org/dl/#unstable) for Windows and run it.
 
     **Ubuntu**<br/>
+    _We are using [godeb](https://blog.labix.org/2013/06/15/in-flight-deb-packages-of-go) because the official package sources don't have go 1.11 yet_
     ```
-    sudo apt-get install golang-go
+    curl -sLO https://godeb.s3.amazonaws.com/godeb-amd64.tar.gz
+    tar -xzf godeb-amd64.tar.gz
+    ./godeb install 1.11rc1
     ```
 
 1. **Understand your GOPATH**<br/>
