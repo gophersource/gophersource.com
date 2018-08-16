@@ -1,7 +1,6 @@
 ---
 title: Setup
 description: Get ready to write Go!
-menu: main
 ---
 
 1. **Install Go**<br/>
