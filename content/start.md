@@ -26,5 +26,6 @@ menu: main
 🤔 _Feeling lost? Unsure if you are qualified to join in?_ 🤔
 </center>
 Don't worry, **you are not alone**! Reach out to the community shepherds in the
-[#gophersource channel on the Gophers Slack](https://gophers.slack.com/app_redirect?channel=gophersource)
+[#gophersource channel](https://gophers.slack.com/app_redirect?channel=gophersource)
+on the [Gophers Slack](https://gophersource.com/community/#chat)
 and we can provide guidance and a bit of reassurance that you are in the right place. ❤️
