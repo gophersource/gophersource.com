@@ -23,7 +23,7 @@ to help out. The [contributor website](https://contributor.kubernetes.io) has
 more information on where you can jump in, there is much more to Kubernetes
 than just the scary sounding "core". 👍
 
-Repo: [github.com/gomods/athens](https://github.com/gomods/athens)<br/>
+Repo: [github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)<br/>
 Docs: [kubernetes.io/docs](https://kubernetes.io/docs/)<br/>
 Community: [contributor.kubernetes.io](https://contributor.kubernetes.io)
 
