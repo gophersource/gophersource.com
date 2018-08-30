@@ -5,7 +5,7 @@ description: Deploy and manage production Docker applications
 
 <center>
   <figure>
-    <a href="https://contributor.kubernetes.io/contributors/guide/">
+    <a href="https://github.com/kubernetes/community/tree/master/contributors/guide">
       <img alt="kubernetes ship wheel logo" src="/img/projects/k8s.png" width="250"/>
     </a>
   </figure>
@@ -19,14 +19,15 @@ containers, etc.
 
 There are _many, many_ areas where you can contribute to Kubernetes, and we need
 people of all experience levels and backgrounds, not just senior developers,
-to help out. The [contributor website](https://contributor.kubernetes.io) has
+to help out. The [contributor guide](https://github.com/kubernetes/community/tree/master/contributors/guide) has
 more information on where you can jump in, there is much more to Kubernetes
 than just the scary sounding "core". 👍
 
+If you would like to really dive in, check-out the [New Contributor Workshop Video Series](https://github.com/kubernetes/community/blob/master/events/2018/05-contributor-summit/new-contributor-workshop.md).
+
 Repo: [github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)<br/>
 Docs: [kubernetes.io/docs](https://kubernetes.io/docs/)<br/>
-Community: [contributor.kubernetes.io](https://contributor.kubernetes.io)
 
 <center>
-  <a href="https://contributor.kubernetes.io/contributors/guide/" class="button round small outline">Get Started</a>
+  <a href="https://github.com/kubernetes/community/tree/master/contributors/guide" class="button round small outline">Get Started</a>
 </center>
