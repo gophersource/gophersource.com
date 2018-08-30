@@ -19,15 +19,18 @@ containers, etc.
 
 There are _many, many_ areas where you can contribute to Kubernetes, and we need
 people of all experience levels and backgrounds, not just senior developers,
-to help out. The [contributor guide](https://github.com/kubernetes/community/tree/master/contributors/guide) has
+to help out. The [contributor guide][guide]] has
 more information on where you can jump in, there is much more to Kubernetes
 than just the scary sounding "core". 👍
 
-If you would like to really dive in, check-out the [New Contributor Workshop Video Series](https://github.com/kubernetes/community/blob/master/events/2018/05-contributor-summit/new-contributor-workshop.md).
+If you would like to really dive in, check-out the [New Contributor Workshop Video Series][video].
 
 Repo: [github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)<br/>
 Docs: [kubernetes.io/docs](https://kubernetes.io/docs/)<br/>
 
 <center>
-  <a href="https://github.com/kubernetes/community/tree/master/contributors/guide" class="button round small outline">Get Started</a>
+  <a href="https://github.com/kubernetes/community/blob/master/contributors/guide/README.md" class="button round small outline">Get Started</a>
 </center>
+
+[guide]: https://github.com/kubernetes/community/blob/master/contributors/guide/README.md
+[workshop]: https://github.com/kubernetes/community/blob/master/events/2018/05-contributor-summit/new-contributor-workshop.md
