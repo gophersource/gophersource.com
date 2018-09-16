@@ -1,4 +1,3 @@
-{{ define "title"}} {{ .Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
   <div id="main">
@@ -8,7 +7,7 @@
            {{ .Params.bref | safeHTML }}.
       </p>
 
-    </div> 
+    </div>
     <div id="kube-component" class="content">
     {{ partial "toc" .}}
 
