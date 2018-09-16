@@ -1013,31 +1013,14 @@ tr.border-none td {
   padding: 40px;
   border: 2px solid #eee; }
 
-#footer {
-  display: flex;
+footer {
+  text-align: center;
   border-top: 1px solid #eee;
   margin: 104px 0;
   padding: 0 28px;
   padding-top: 24px;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.5); }
-  #footer p {
-    order: 1; }
-  #footer nav {
-    order: 2;
-    margin-left: auto; }
-  #footer nav ul {
-    display: flex; }
-  #footer nav ul li {
-    margin-left: 20px; }
-  #footer nav ul li span {
-    color: rgba(0, 0, 0, 0.3); }
-  #footer nav ul li a {
-    color: rgba(0, 0, 0, 0.65);
-    text-decoration: none; }
-  #footer nav ul li a:hover {
-    color: #000;
-    text-decoration: underline; }
 
 @media (max-width: 768px) {
   #top {

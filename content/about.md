@@ -25,3 +25,7 @@ become productive community members.
 _Check out the origin story for my
 [Adventures in GopherSource](https://carolynvanslyck.com/blog/2018/06/gopher-source-adventures/)._
 </center>
+
+<div style="text-align: right; font-style: italic">
+&mdash; <a href="https://carolynvanslyck.com">Carolyn Van Slyck</a>
+</div>
