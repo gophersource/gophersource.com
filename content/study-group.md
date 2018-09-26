@@ -35,7 +35,7 @@ Videos from our past sessions are available on [Youtube](https://www.youtube.com
 # 🇮🇳 India
 
 <center>
-#### When: Every second Thursday at 9pm IST
+#### When: Every 1st and 3rd Thursday at 8:30 PM IST
 #### Where: https://bit.ly/gostudygroup (Google Hangout)
 </center>
 
