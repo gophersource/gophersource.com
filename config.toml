@@ -5,3 +5,4 @@ theme = "gopher"
 
 [params]
   description = "An open-source adventure for gophers"
+  image = "/img/gopher-balloons.png"

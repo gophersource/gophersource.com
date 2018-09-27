@@ -1,6 +1,7 @@
 ---
 title: Start
 description: Get started contributing to open-source Go projects
+image: "/img/share.png"
 menu: main
 ---
 

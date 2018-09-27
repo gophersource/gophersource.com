@@ -25,6 +25,9 @@
   {{ if .IsHome }} {{ partial "site-verification" . }} {{ end }}
   <!-- add googleAnalytics in config.toml -->
   {{ template "_internal/google_analytics_async.html" . }}
+
+  {{ partial "meta/twitter" . }}
+
   {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
 

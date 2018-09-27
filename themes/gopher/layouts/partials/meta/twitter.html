@@ -1,0 +1,6 @@
+  <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary -->
+  <!-- preview @ https://cards-dev.twitter.com/validator -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta name="twitter:description" content="{{ .Description }}" />
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.image | default .Site.Params.image }}" />

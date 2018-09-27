@@ -1,5 +1,6 @@
 ---
 title: About
+description: The origin story of GopherSource 💥
 menu: main
 ---
 

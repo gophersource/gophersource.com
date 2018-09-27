@@ -1,6 +1,7 @@
 ---
 title: Setup
 description: Get ready to write Go!
+image: "/img/build.png"
 ---
 
 1. **Install Go**<br/>
