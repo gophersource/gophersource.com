@@ -40,7 +40,7 @@ Videos from our past sessions are available on [Youtube](https://www.youtube.com
 
 <center>
 #### When: Every 1st and 3rd Thursday at 8:30 PM IST
-#### Where: https://bit.ly/gostudygroup (Google Hangout)
+#### Where: rebrand.ly/gostudygroup
 </center>
 
 "Go Study Group - India" is an offshoot of the "Go Study Group" with an aim to engage gophers in India. It is open to everyone around the world. All communication takes place in English. The `India` session does not overlap with the `Go Study Group` USA session, so, you can participate in both!
