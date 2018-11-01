@@ -17,9 +17,9 @@ here are a few tips:
 * Before you have submitted your PR, or it is still marked as a Work in Progress (WIP),
   feel free to use rebase as much as you like.
 * After someone has begun reviewing your code, or when you are making requested changes
-  from a review, put your new changes in a separate commit. This helps the
-  reviewer by isolating your new changes. This makes it easier for the reviewer
-  to see only your most recent changes.
+  from a review, put your changes in a new commit. This helps the
+  reviewer by isolating your recent changes and makes it easier for them to
+  verify that you have followed through on their suggestions.
 * When you rebase or amend your commits after the review has begun, the reviewer
   has to redo the entire review from scratch, which for non-trivial pull requests
   can require a lot more time!
