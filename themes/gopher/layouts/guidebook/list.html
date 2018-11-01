@@ -1,0 +1,33 @@
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<div id="hero" class="wrap">
+  <h1>{{ .Title }}</h1>
+  {{if .Description }}
+  <p>{{.Description}}</p>
+  {{end}}
+</div>
+
+<div id="post-box">
+  <div id="post" itemprop="articleBody">
+
+      {{.Content | safeHTML}}
+
+  </div>
+
+  <h3 id="contributors">For Contributors</h3>
+  <ul id="posts">
+   {{ range .Site.Taxonomies.categories.contributors }} {{ partial "page-summary" . }} {{ end }}
+  </ul>
+
+  <h3 id="maintainers">For Maintainers</h3>
+  <ul id="posts">
+   {{ range .Site.Taxonomies.categories.maintainers }} {{ partial "page-summary" . }} {{ end }}
+  </ul>
+</div>
+
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}
