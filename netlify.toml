@@ -3,7 +3,7 @@
 
 [build]
   publish = "public"
-  command = "make build"
+  command = "hugo -b $DEPLOY_PRIME_URL"
 
 [build.environment]
   HUGO_VERSION = "0.48"
