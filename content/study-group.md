@@ -28,7 +28,7 @@ community! Everyone is welcome regardless of background or experience with Go!
 Please join the **#gostudygroup** channel in the [Gophers slack](/community/#chat) for updates. Most topics are suitable for people
 of all levels of Go experience.
 
-See our [agenda](https://docs.google.com/document/d/16m99AvcTL_BJOIbR4jkUDSHyApYUDb0VgC9UPBJMed0)
+See our [agenda](https://github.com/go-study-group/agendas)
 and [videos](https://www.youtube.com/playlist?list=PLIIo-DJ5C8_GjskQzhbKx4S-2QglNTULt)
 to get a feel for past activities or to propose a topic for an upcoming session.
 
