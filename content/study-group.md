@@ -22,7 +22,7 @@ community! Everyone is welcome regardless of background or experience with Go!
 
 <center>
 #### When: Every Thursday at 10am Pacific Time
-#### Where: https://zoom.us/j/714787795
+#### Where: https://aka.ms/gostudygroupzoom
 </center>
 
 Please join the **#gostudygroup** channel in the [Gophers slack](/community/#chat) for updates. Most topics are suitable for people
