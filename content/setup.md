@@ -4,28 +4,31 @@ description: Get ready to write Go!
 image: "/img/build.png"
 ---
 
-1. **Install Go**<br/>
+1. **Install Go**
 
-    **MacOS**<br/>
-    Download the [Go 1.11 installer](https://golang.org/dl/#unstable) for macOS and run it.
+    **MacOS**
 
-    **Windows**<br/>
-    Download the [Go 1.11 installer](https://golang.org/dl/#unstable) for Windows and run it.
+    Download the [Go installer](https://golang.org/dl/) for macOS and run it.
 
-    **Ubuntu**<br/>
-    _We are using [godeb](https://blog.labix.org/2013/06/15/in-flight-deb-packages-of-go) because the official package sources don't have go 1.11 yet_
+    **Windows**
+
+    Download the [Go installer](https://golang.org/dl/) for Windows and run it.
+
+    **Ubuntu**
+    
     ```
     curl -sLO https://godeb.s3.amazonaws.com/godeb-amd64.tar.gz
     tar -xzf godeb-amd64.tar.gz
-    ./godeb install 1.11rc1
+    ./godeb install
     ```
 
-1. **Understand your GOPATH**<br/>
+1. **Understand your GOPATH**
+
     The GOPATH is the location where Go looks for source code, caches packages, etc.
     You do not need to set it explicitly and can run the following comment to see where
     Go thinks your GOPATH is.
 
-    ```
+    ```console
     $ go env GOPATH
     /Users/carolynvs/go
     ```
@@ -36,7 +39,8 @@ image: "/img/build.png"
     Go requires that a project's source code is located in **GOPATH/src/PACKAGE_NAME**,
     for example GOPATH/src/github.com/carolynvs/magic or GOPATH/src/golang.org/x/golint.
 
-1. **Add GOPATH/bin to your PATH**<br/>
+1. **Add GOPATH/bin to your PATH**
+
     When you install a Go application, it is placed under GOPATH/bin. You should
     add that location to your PATH environment variable. This allows you to easily
     install and run apps.
@@ -57,18 +61,20 @@ image: "/img/build.png"
     After you have update your PATH environment variable, open a new shell window or tab
     so that it is loaded and ready for you to use.
 
-1. **Verify your setup**<br/>
+1. **Verify your setup**
+
     Let's verify that Go is setup properly by installing a running a go application.
 
-    ```
+    ```console
     $ go get -u github.com/carolynvs/magic
     # the source is downloaded to GOPATH/src/github.com/carolynvs/magic
+
     $ magic
   🎵  Oh oh it's magic! 🎵
     ```
 
     The `go get -u` command clones the package's source code under the GOPATH in
-    it's proper place, or updates it if it already exists, builds the package
+    its proper place, or updates it if it already exists, builds the package
     and then installs it. Because we put GOPATH/bin on our PATH, the binary built
     by Go, `magic`, is available for us to use immediately.
 
