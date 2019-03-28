@@ -20,9 +20,10 @@ The big goal of Athens is to provide a new place where dependencies — not code
 Dependencies are immutable blobs of code and associated metadata that come from
 Github. They live in storage that Athens controls.
 
-Repo: [github.com/gomods/athens](https://github.com/gomods/athens)<br/>
-Docs: [docs.gomods.io](https://docs.gomods.io)
-
+* [Repository](https://github.com/gomods/athens)
+* [Documentation](https://docs.gomods.io)
+* [Code of Conduct](https://github.com/gomods/athens/blob/master/CODE_OF_CONDUCT.md)  
+      
 <center>
   <a href="https://github.com/gomods/athens#getting-involved" class="button round small outline">Get Started</a>
 </center>

@@ -5,8 +5,11 @@ menu: main
 ---
 
 ## Code of Conduct
-All of our communities follow the [Go Code of Conduct](https://golang.org/conduct)
-to create safe, inclusive spaces for everyone.
+All of our community spaces follow variations of the Contributor Covenant
+to create safe, inclusive spaces for everyone:
+
+* [Go CoC](https://golang.org/conduct)
+* [GoBridge CoC](https://github.com/gobridge/about-us/blob/master/coc.md)
 
 <center>
 <img alt="go community" src="/img/community.png" width="500" />

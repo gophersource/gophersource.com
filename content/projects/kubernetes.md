@@ -25,8 +25,9 @@ than just the scary sounding "core". 👍
 
 If you would like to really dive in, check-out the [New Contributor Workshop Video Series][video].
 
-Repo: [github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)<br/>
-Docs: [kubernetes.io/docs](https://kubernetes.io/docs/)<br/>
+* [Repository](https://github.com/kubernetes/kubernetes)
+* [Documentation](https://kubernetes.io/docs/)
+* [Code of Conduct](https://github.com/kubernetes/community/blob/master/code-of-conduct.md)
 
 <center>
   <a href="https://github.com/kubernetes/community/blob/master/contributors/guide/README.md" class="button round small outline">Get Started</a>
@@ -34,3 +35,4 @@ Docs: [kubernetes.io/docs](https://kubernetes.io/docs/)<br/>
 
 [guide]: https://github.com/kubernetes/community/blob/master/contributors/guide/README.md
 [workshop]: https://github.com/kubernetes/community/blob/master/events/2018/05-contributor-summit/new-contributor-workshop.md
+[video]: https://www.youtube.com/playlist?list=PL69nYSiGNLP3M5X7stuD7N4r3uP2PZQUx
