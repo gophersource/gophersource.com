@@ -20,6 +20,14 @@ community! Everyone is welcome regardless of background or experience with Go!
 
 # 🇺🇸 United States
 
+## Note: the US study group does not currently meet anymore
+
+**The organizers don't currently have time to maintain and hold the study group sessions, so if you'd like to take over, please contact `@arschles` on the Gophers Slack, or come say hi in the `#gostudygroup` channel.**
+
+**Everything in this section after this point is kept for historical purposes, but is not accurate. The India Study Group, however, is still on!**
+
+---
+
 <center>
 #### When: Every Thursday at 10am Pacific Time
 #### Where: https://aka.ms/gostudygroupzoom
